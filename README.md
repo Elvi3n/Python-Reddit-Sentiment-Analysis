@@ -13,12 +13,12 @@ Project Structure
 
 ## Setup
 
-python -m venv .venv
-source .venv/bin/activate   # macOS/Linux
-.venv\Scripts\activate      # Windows
+- python -m venv .venv
+- source .venv/bin/activate   # macOS/Linux
+- .venv\Scripts\activate      # Windows
 
 
-## Install the required packages:
+### Install the required packages:
 
 pip install -r requirements.txt
 

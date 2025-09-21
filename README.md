@@ -11,12 +11,6 @@ Project Structure
 └── requirements.txt            # Python dependencies  
 ```
 
-## Setup
-
-- python -m venv .venv
-- source .venv/bin/activate   # macOS/Linux
-- .venv\Scripts\activate      # Windows
-
 
 ### Install the required packages:
 
@@ -50,6 +44,34 @@ The histogram below shows that posts cluster in the pettyrevenge subreddiit at t
 
 <img width="562" height="455" alt="output" src="https://github.com/user-attachments/assets/e8298b90-57f7-4312-bb40-a699d546ca77" />
 
+## Set up
+
+1) Clone the repo:
+
+    git clone https://github.com/Elvi3n/Python-Canada-Youth-Unemployment-Analysis.git
+   
+    cd canada-youth-unemployment
+
+3) Create & activate virtual environment:
+
+    python -m venv .venv
+   
+    .\.venv\Scripts\activate   # (Windows)
+   
+    source .venv/bin/activate  # (Mac/Linux)
+
+4) Install requirements:
+
+    pip install -r requirements.txt
+
+5) Update your client ID, client secret, and user agent in the notebook before running.
+   
+    *Reddit API credentials are required. Create a Reddit app by following the OAuth2 Quick Start Guide*
+
+6) Run Notebook
+
+
 ## License
 
-This project is licensed under the terms of the LICENSE file included in the repository.
+MIT License (free to use with attribution).
+

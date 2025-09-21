@@ -41,8 +41,8 @@ pip install -r requirements.txt
 
 ## Findings
 
-Highest sentiment score (positive): 0.99
-Lowest sentiment score (negative): -0.99
+- Highest sentiment score (positive): 0.99
+- Lowest sentiment score (negative): -0.99
 
 ### Distribution Plot
 

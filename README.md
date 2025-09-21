@@ -22,7 +22,7 @@ Project Structure
 
 pip install -r requirements.txt
 
-Reddit API credentials are required. Create a Reddit app by following the OAuth2 Quick Start Guide
+*Reddit API credentials are required. Create a Reddit app by following the OAuth2 Quick Start Guide*
 . Update your client ID, client secret, and user agent in the notebook before running.
 
 ## Workflow
@@ -41,14 +41,14 @@ Reddit API credentials are required. Create a Reddit app by following the OAuth2
 
 ## Findings
 
-Highest sentiment score (positive): 0.9975
+Highest sentiment score (positive): 0.99
+Lowest sentiment score (negative): -0.99
 
-Lowest sentiment score (negative): -0.9991
-
-Distribution Plot
+### Distribution Plot
 
 The histogram below shows that posts cluster in the pettyrevenge subreddiit at the extremes. Meaning the subreddit’s content is polarized: people either narrate their stories with deep negativity or with triumphant positivity, likely from their success in taking revenge. The lack of middle-ground suggests that revenge stories are emotionally charged by nature.
 
+<img width="562" height="455" alt="output" src="https://github.com/user-attachments/assets/e8298b90-57f7-4312-bb40-a699d546ca77" />
 
 ## License
 

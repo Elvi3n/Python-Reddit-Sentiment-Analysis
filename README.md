@@ -46,23 +46,17 @@ The histogram below shows that posts cluster in the pettyrevenge subreddiit at t
 
 ## Set up
 
-1) Clone the repo:
+1) Create & activate virtual environment:
 
-    git clone https://github.com/Elvi3n/Python-Canada-Youth-Unemployment-Analysis.git
+    - python -m venv .venv
    
-    cd canada-youth-unemployment
-
-3) Create & activate virtual environment:
-
-    python -m venv .venv
+    - .venv\Scripts\activate   # (Windows)
    
-    .\.venv\Scripts\activate   # (Windows)
-   
-    source .venv/bin/activate  # (Mac/Linux)
+    - source .venv/bin/activate  # (Mac/Linux)
 
 4) Install requirements:
 
-    pip install -r requirements.txt
+    - pip install -r requirements.txt
 
 5) Update your client ID, client secret, and user agent in the notebook before running.
    
@@ -74,4 +68,3 @@ The histogram below shows that posts cluster in the pettyrevenge subreddiit at t
 ## License
 
 MIT License (free to use with attribution).
-
